@@ -201,7 +201,7 @@ class walletWeixinUtil
             foreach ((array)$array as $ney => $na) {
                    $tipMsg .= $ney.'：'.$na.';\n';
             }
-            error_log("[debug]:{$tipMsg}",3, './_debug.log')   
+            error_log("[debug]:{$tipMsg}",3, './_debug.log');
 
             return 'print error!';
         }else{
